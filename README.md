@@ -67,7 +67,7 @@ State Storage (SQLite)
 financial-analysis-insight/
 │
 ├── main.py               # API Entry Point
-├── celery_worker.py      # Background Execution Engine
+├── celery_app.py      # Background Execution Engine
 ├── crew_setup.py         # Agent Configuration
 ├── agents.py             # Agent Definitions
 ├── tasks.py              # Task Definitions
@@ -159,7 +159,7 @@ docker run -p 6379:6379 redis
 ## Step 2: Launch Background Processor
 
 ```
-celery -A celery_worker.celery_app worker --loglevel=info
+celery -A celery_app.celery_app worker --loglevel=info
 ```
 
 ---
