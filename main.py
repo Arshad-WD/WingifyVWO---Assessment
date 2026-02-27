@@ -61,4 +61,4 @@ def get_result(job_id: str):
 
 @app.get("/")
 def root():
-    return {"message": "Financial Document Analyzer with Async Queue is running"}
+    return {"message": "Financial Analysis Insight Platform is active"}
