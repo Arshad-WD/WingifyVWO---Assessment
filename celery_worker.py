@@ -8,7 +8,7 @@ import json
 import os
 
 celery_app = Celery(
-    "fiscal_processor",
+    "financial_analysis_processor",
     broker="redis://localhost:6379/0",
     backend="redis://localhost:6379/0"
 )

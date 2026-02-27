@@ -4,7 +4,7 @@ from fastapi import FastAPI, UploadFile, File, Form
 from celery_worker import run_analysis_task
 from database import init_db, SessionLocal, AnalysisJob
 
-app = FastAPI(title="FiscalAI Insight Gateway")
+app = FastAPI(title="Financial Analysis Insight Gateway")
 
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)

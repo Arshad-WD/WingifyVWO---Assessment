@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 import uuid
 
-DATABASE_URL = "sqlite:///./fiscal_insight.db"
+DATABASE_URL = "sqlite:///./financial_analysis_insight.db"
 
 engine = create_engine(
     DATABASE_URL, connect_args={"check_same_thread": False}

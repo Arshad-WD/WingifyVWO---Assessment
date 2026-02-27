@@ -1,10 +1,10 @@
-# FiscalAI Insight
+# Financial Analysis Insight
 
-### AI-Powered Fiscal Analysis Platform
+### AI-Powered Financial Analysis Platform
 
 ## Overview
 
-FiscalAI Insight is a robust, production-ready system for analyzing fiscal documents, leveraging:
+Financial Analysis Insight is a robust, production-ready system for analyzing financial documents, leveraging:
 
 * RESTful Gateway (FastAPI)
 * Intelligent Agent Orchestration (CrewAI)
@@ -64,7 +64,7 @@ State Storage (SQLite)
 # 📁 Project Organization
 
 ```
-fiscal-ai-insight/
+financial-analysis-insight/
 │
 ├── main.py               # API Entry Point
 ├── celery_worker.py      # Background Execution Engine
@@ -111,7 +111,7 @@ Standardized Output Format:
 
 ```
 git clone <repository_url>
-cd fiscal-ai-insight
+cd financial-analysis-insight
 ```
 
 ---
@@ -259,4 +259,4 @@ OPENAI_API_KEY=<your_api_key>
 
 # 🏁 Summary
 
-FiscalAI Insight transformed a raw prototype into a professional, asynchronous, and reliable intelligent analysis system. It is designed for developers who value stability, clear separation of concerns, and verifiable AI outputs.
+Financial Analysis Insight transformed a raw prototype into a professional, asynchronous, and reliable intelligent analysis system. It is designed for developers who value stability, clear separation of concerns, and verifiable AI outputs.
